@@ -74,3 +74,4 @@ bst.insert(5)
 bst.insert(10)
 
 print(bst.find(10))
+print(bst.find(12))
