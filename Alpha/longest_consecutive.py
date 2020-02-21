@@ -17,3 +17,4 @@ def longest_subsequence(s):
     return {max_char: max_count}
 
 print(longest_subsequence('AACC'))
+
