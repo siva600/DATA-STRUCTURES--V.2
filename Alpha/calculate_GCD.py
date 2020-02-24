@@ -25,7 +25,7 @@ def find_gcd(a, b):
             i = i-1
 
 # most optimized one with Euclid's algorithm using recursion.
-# let m = ad, n = bd (a,b are factors)
+# let m = ad, n = bd (a,b are factors) ; here m>n
 # m-n = ad-bd = (a-b)d .. here d divides both (m-n) as well.
 # ** If d divides both m,n it also divides (m-n). Here d is the largest divisor.
 # So gcd(m,n) = gcd(n, m-n)..
