@@ -1,4 +1,5 @@
 # single object creation
+# https://www.youtube.com/watch?v=6IV_FYx6MQA
 class SingleTon:
     _instance = None
     def __new__(self):
