@@ -26,12 +26,12 @@ class SingleTon2(object):
 
 
 obj = SingeleTon()
-print obj.y
+print(obj.y)
 obj.y = 20
-print obj.y
+print(obj.y)
 
 obj2 = SingeleTon()
-print obj2.y
+print(obj2.y)
 
 print(id(obj))
 print(id(obj2))
@@ -58,8 +58,8 @@ class TestClass(object):
 
 x = TestClass()
 x.data = 10
-print x.data
+print(x.data)
 
 y = TestClass()
-print y.data
+print(y.data)
 
