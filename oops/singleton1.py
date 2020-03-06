@@ -63,3 +63,34 @@ print(x.data)
 y = TestClass()
 print(y.data)
 
+
+
+# singleton using class decorator
+class SingleTonDecorator(object):
+    def __init__(self, target_class):
+        self.instance = None
+        self.target_class = target_class
+
+    def __call__(self, *args, **kwargs):
+        if not self.instance:
+            self.instance = self.target_class(*args, **kwargs)
+        return self.instance
+
+
+@SingleTonDecorator
+class Logger(object):
+    def __int__(self):
+        self.start = None
+
+    def write(self, message):
+        if self.start:
+            print(self.start, message)
+        else:
+            print(message)
+
+logger = Logger()
+logger.start = "hello"
+print logger
+logger.write("new ")
+
+
