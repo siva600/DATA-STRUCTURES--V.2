@@ -1,4 +1,5 @@
 # dunder methods/ magic methods include : __init__(), __len(), __contains__(), __new__(), __slots__(), __getitem__(), __iter__()
+# https://rszalski.github.io/magicmethods/
 
 class Countries:
     def __init__(self):
