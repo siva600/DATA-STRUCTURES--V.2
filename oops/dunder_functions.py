@@ -1,3 +1,5 @@
+# dunder methods/ magic methods include : __init__(), __len(), __contains__(), __new__(), __slots__(), __getitem__(), __iter__()
+
 class Countries:
     def __init__(self):
         self._members = ['India', 'America', 'England', 'Russia', 'China']
