@@ -1,6 +1,7 @@
 # given a string find the LONGEST SUBSTRING WITHOUT REPEATS.
 # e.g.. 'abcabcbb' == 3
-
+# https://www.youtube.com/watch?v=sZosU8JjVaA
+# https://hackernoon.com/14-patterns-to-ace-any-coding-interview-question-c5bb3357f6ed
 
 def helper(s, start):
     seen = set()
